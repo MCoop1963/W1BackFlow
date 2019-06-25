@@ -1,0 +1,36 @@
+#ReportForm {
+  color: #676767;
+
+  .App .container {
+    padding: 0;
+    display: flex;
+  }
+
+  h2 {
+    color: #676767;
+    margin-bottom: 25px;
+  }
+
+  .sidebar {
+    flex-grow: 1;
+
+    .form-group {
+      label {
+        margin-bottom: 0px;
+      }
+      p {
+        color: #676767;
+        font-weight: 600;
+      }
+    }
+
+    hr {
+      border-top: 1px solid #b3b3b3;
+      margin: 40px -20px;
+    }
+  }
+
+  .right-content {
+    flex-grow: 1;
+  }
+}

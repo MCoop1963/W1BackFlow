@@ -1,0 +1,21 @@
+#RecordForm {
+  .actions {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  hr {
+    margin: 30px 0;
+  }
+
+  textarea {
+    height: 200px;
+    width: 100%;
+    padding: 8px;
+  }
+
+  button.submit {
+    width: 200px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,21 @@
+$tablet: 800px;
+$blue: #2c6686;
+
+$theme-colors: (
+  'primary': rgb(19, 87, 153),
+  'danger': #8d0100,
+);
+
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  background-color: #ececec;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  font-size: 1.4em;
+}

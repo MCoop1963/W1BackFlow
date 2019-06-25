@@ -1,0 +1,70 @@
+#FindRecord {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .Card {
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #d5d5d5;
+
+    width: 600px;
+    padding: 0px;
+    padding-bottom: 30px;
+
+    .form-container {
+      form {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        button[type="submit"] {
+          margin-top: 75px;
+        }
+      }
+    }
+
+    .react-tabs {
+      margin-top: -1px;
+
+      &__tab-list {
+        border-bottom: 0px;
+      }
+
+      &__tab {
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: 100;
+
+        width: 50%;
+        padding: 15px 0px;
+        background-color: #f5f5f5;
+
+        border: 0px;
+        border-radius: 0px;
+        border-bottom: 2px solid #d5d5d5;
+        border-top: 5px solid #f5f5f5;
+
+        &:first-child {
+          border-right: 2px solid #d5d5d5;
+        }
+
+        &--selected {
+          background-color: #FFF;
+          border-top: 5px solid #03a8df;
+          border-bottom: 0px;
+        }
+      }
+
+      &__tab-panel {
+        padding: 30px;
+      }
+    }
+
+    input,
+    select {
+      padding: 0 9px;
+      height: 50px;
+    }
+  }
+}
