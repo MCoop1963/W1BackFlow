@@ -1,0 +1,6 @@
+.sidebar {
+  width: 350px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: inline-block;
+  box-shadow: 2px 1px 10px -1px rgba(0, 0, 0, 0.16); }
